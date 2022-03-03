@@ -1,9 +1,12 @@
 import './App.css';
 
-function App() {
+import Advice from './components/Advice';
+
+const  App= ()=> {
+
   return (
     <div className="container">
-      
+      <Advice />
     </div>
   );
 }

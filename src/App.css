@@ -1,0 +1,75 @@
+.container {
+    position: relative;
+    max-width: 33.75rem;
+    width: 90%;
+    min-width: 10rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.28rem;
+    margin: 0 auto;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    background-color: var(--grayish-blue);
+    border-radius: 10px;
+    padding: 3.2rem 1.5rem;
+    text-align: center;
+    box-sizing: border-box;
+  }
+
+  .advice__id {
+    color: var(--neon-green);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 14px;
+    font-weight: 800;
+  }
+
+  .advice__text {
+    font-size: 1.75rem;
+    color: var(--light-cyan);
+    font-weight: 800;
+    padding: 0 1rem;
+  }
+
+  .line__break {
+    width: 90%;
+    height: 2rem;
+    display: flex;
+    flex-direction: row;
+    padding-top: 0.6rem;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .line__break::before,
+.line__break::after {
+  content: " ";
+  background-color: var(--white);
+  opacity: 0.2;
+  width: 70%;
+  height: 1px;
+}
+
+.line__break-img {
+    background-image: url("images/pattern-divider-mobile.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 10rem;
+    height: 2rem;
+  }
+
+  .dice-img {
+    position: absolute;
+    cursor: pointer;
+    background-color: var(--neon-green);
+    background-image: url("images/icon-dice.svg");
+    background-position: 50%;
+    background-repeat: no-repeat;
+    transform: translateY(30%) translateX(-50%);
+    left: 50%;
+    border-radius: 50%;
+    width: 4rem;
+    height: 4rem;
+    transition: all ease-in-out 0.3s;
+  
+  }
